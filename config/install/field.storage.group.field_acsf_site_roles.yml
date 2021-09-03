@@ -1,0 +1,19 @@
+uuid: b581665e-9d51-48f9-ae3d-18b0d41fdf76
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+id: group.field_acsf_site_roles
+field_name: field_acsf_site_roles
+entity_type: group
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

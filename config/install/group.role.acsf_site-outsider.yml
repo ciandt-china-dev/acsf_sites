@@ -1,0 +1,14 @@
+uuid: ec4a1acd-d494-4724-8710-878ee40fc343
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.acsf_site
+id: acsf_site-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: acsf_site
+permissions_ui: true
+permissions: {  }

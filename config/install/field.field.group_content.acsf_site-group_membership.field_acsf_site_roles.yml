@@ -1,0 +1,21 @@
+uuid: afb5b252-f283-445a-b4a3-58efaa2cc105
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group_content.field_acsf_site_roles
+    - group.content_type.acsf_site-group_membership
+  module:
+    - options
+id: group_content.acsf_site-group_membership.field_acsf_site_roles
+field_name: field_acsf_site_roles
+entity_type: group_content
+bundle: acsf_site-group_membership
+label: 'ACSF Site Roles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

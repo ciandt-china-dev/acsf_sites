@@ -1,0 +1,19 @@
+uuid: a1f08418-d881-47e5-915c-702c0cc02342
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_acsf_site_key
+    - group.type.acsf_site
+id: group.acsf_site.field_acsf_site_key
+field_name: field_acsf_site_key
+entity_type: group
+bundle: acsf_site
+label: 'ACSF Site Key'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

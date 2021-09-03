@@ -1,0 +1,14 @@
+uuid: 02743684-513d-4c77-9594-a6f45241f2ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.acsf_site
+id: acsf_site-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: acsf_site
+permissions_ui: true
+permissions: {  }

@@ -1,0 +1,33 @@
+uuid: 622bb2a8-6d96-4aba-98ce-40419cf6d060
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_content.acsf_site-group_membership.field_acsf_site_roles
+    - field.field.group_content.acsf_site-group_membership.group_roles
+    - group.content_type.acsf_site-group_membership
+  module:
+    - options
+id: group_content.acsf_site-group_membership.default
+targetEntityType: group_content
+bundle: acsf_site-group_membership
+mode: default
+content:
+  field_acsf_site_roles:
+    weight: -3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  group_roles:
+    label: above
+    type: entity_reference_label
+    settings:
+      link: false
+    weight: -4
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_id: true
+  uid: true

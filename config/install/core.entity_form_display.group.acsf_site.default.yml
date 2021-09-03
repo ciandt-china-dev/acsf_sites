@@ -1,0 +1,47 @@
+uuid: 5010f152-b3e5-4b30-9571-e5bfdf705eb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group.acsf_site.field_acsf_site_key
+    - field.field.group.acsf_site.field_acsf_site_roles
+    - group.type.acsf_site
+id: group.acsf_site.default
+targetEntityType: group
+bundle: acsf_site
+mode: default
+content:
+  field_acsf_site_key:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_acsf_site_roles:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+hidden:
+  path: true
+  uid: true
